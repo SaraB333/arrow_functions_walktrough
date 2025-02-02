@@ -37,5 +37,6 @@ sayHello();
 const returnMultipleLines = () => (
     `<p>
         This is a Multiline string!
-    <\p>`
+    </p>`
 )
+console.log(returnMultipleLines());
